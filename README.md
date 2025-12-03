@@ -34,3 +34,32 @@ A small Laravel application that generates a **Product Order Summary Report** wi
    ```bash
    git clone <your-repo-url> sales-report
    cd sales-report
+
+2. **Install PHP dependencies**
+
+    composer install
+
+
+3. **Create .env file**
+
+    cp .env.example .env
+
+
+4. **Configure environment**
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=sales_report
+DB_USERNAME=root
+DB_PASSWORD=
+
+
+Generate application key
+
+php artisan key:generate
+
+
+Run migrations and seed demo data
+
+php artisan migrate --seed
