@@ -18,7 +18,6 @@ A small Laravel application that generates a **Product Order Summary Report** wi
 - Laravel 11
 - MySQL 8 (or compatible)
 - Composer
-- (Optional) Node.js + npm for asset building
 
 ### Main Packages
 
@@ -58,11 +57,13 @@ A small Laravel application that generates a **Product Order Summary Report** wi
     DB_PASSWORD=
 
 
-Generate application key
+5. **Generate application key**
 
-php artisan key:generate
+   ```bash
+   php artisan key:generate
 
 
-Run migrations and seed demo data
+6. **Run migrations and seed data**
 
-php artisan migrate --seed
+   ```bash
+   php artisan migrate --seed
