@@ -67,3 +67,10 @@ A small Laravel application that generates a **Product Order Summary Report** wi
 
    ```bash
    php artisan migrate --seed
+
+
+   ## Screenshots
+
+![Index Page](screenshot/sales.png)
+
+![Product Order Summary Report](screenshot/excel.png)
