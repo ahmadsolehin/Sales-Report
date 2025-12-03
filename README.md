@@ -37,22 +37,25 @@ A small Laravel application that generates a **Product Order Summary Report** wi
 
 2. **Install PHP dependencies**
 
+   ```bash
     composer install
 
 
 3. **Create .env file**
 
+   ```bash
     cp .env.example .env
 
 
 4. **Configure environment**
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=sales_report
-DB_USERNAME=root
-DB_PASSWORD=
+   ```bash
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=sales_report
+    DB_USERNAME=root
+    DB_PASSWORD=
 
 
 Generate application key
